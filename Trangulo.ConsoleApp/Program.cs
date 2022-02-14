@@ -35,12 +35,13 @@ namespace Trangulo.ConsoleApp
                 }
                 else if (l1 != l2 && l1 != l3 && l2 != l3)
                 {
-                    Console.WriteLine("SEu triangulo é um triangulo escaleno, pois todos os lados são diferentes");
+                    Console.WriteLine("Seu triangulo é um triangulo escaleno, pois todos os lados são diferentes");
                 }
-                else if (l1 == l2 && l1 != l3 || l3==l2 && l3 != l1 || l2 == l1 && l2 != l3 || l2 == l3 && l2 != l1)
+                else if (l1 == l2 && l1 != l3 || l3==l2 && l3 != l1 || l2 == l1 && l2 != l3 || l2 == l3 && l2 != l1 || l1 == l3 && l1 != l2)
                 {
                     Console.WriteLine("Seu triangulo é um trianglo isóceles, pois dois lados são iguais e um é diferente");
                 }
+
                 Console.ReadKey();
             
 
